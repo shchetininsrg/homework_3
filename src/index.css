@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.controlls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.controlls_type_top {
+  justify-content: flex-start;
+  height: 50px;
+}
+
+.controlls__btn{
+  font-size: 50px;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap : 50px;
+  margin-top: 100px;
+}
+
+.form-container {
+  margin-top: 100px;
+}
+
+.skills-filter{
+  margin-top: 100px;
+}
